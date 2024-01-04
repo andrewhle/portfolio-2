@@ -1,36 +1,32 @@
-"use client"
+"use client";
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { BsLinkedin } from "react-icons/bs";
 import { FaGithubSquare } from "react-icons/fa";
 
-import { TypeAnimation}  from 'react-type-animation'
+import { TypeAnimation } from "react-type-animation";
 
 function Header() {
   return (
     <section>
       <div className="grid grid-cols-1 sm:grid-cols-12">
-        <div className="col-span-7 place-self-center text-center sm:text-left"> 
+        <div className="col-span-7 place-self-center text-center sm:text-left">
           <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-6xl font-extrabold">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-800 to-orange-400 ">
               Hello, I'm{" "}
             </span>
             <br />
-            <TypeAnimation sequence={
-              [
-                "Andrew",
-                1000,
-                "a Web Developer </>",
-                1000,
-              ]}
+            <TypeAnimation
+              sequence={["Andrew", 1000, "a Web Developer </>", 1000]}
               wrapper="span"
               speed={50}
               repeat={Infinity}
-              />
+            />
           </h1>
           <p className="text-slate-300 text-base sm:text-lg mb-6 lg:text-xl">
-            I specialize in building websites, cloud infrastructure, applications, and everything in between.
+            I specialize in building websites, cloud infrastructure,
+            applications, and everything in between.
           </p>
           <div className="flex items-center space-x-4">
             <Link
@@ -41,26 +37,29 @@ function Header() {
                 Download CV
               </span>
             </Link>
-            
+
             <Link
               href="https://www.linkedin.com/in/hungl3/"
-              rel="noopener noreferrer" 
+              rel="noopener noreferrer"
               target="_blank"
               className="block bg-gray-600 text-white hover:bg-gray-700 rounded-full mt-3"
             >
-              <span className="block rounded-full px-4 py-3"><BsLinkedin className="w-6 h-6"/></span>
+              <span className="block rounded-full px-4 py-3">
+                <BsLinkedin className="w-6 h-6" />
+              </span>
             </Link>
 
             <Link
               href="https://www.github.com"
-              rel="noopener noreferrer" 
+              rel="noopener noreferrer"
               target="_blank"
               className="block bg-gray-600 text-white hover:bg-gray-700 rounded-full mt-3"
             >
-              <span className="block rounded-full px-4 py-3"><FaGithubSquare className="w-6 h-6"/></span>
+              <span className="block rounded-full px-4 py-3">
+                <FaGithubSquare className="w-6 h-6" />
+              </span>
             </Link>
           </div>
-          
         </div>
         <div className="col-span-5 place-self-center mt-4">
           <div className="relative rounded-full bg-orange-500 w-[250px] h-[250px] lg:w-[300px] lg:h-[300px]">
