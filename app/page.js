@@ -1,5 +1,7 @@
+import About from "./components/About"
 import Header from "./components/Header"
 import Navbar from "./components/Navbar"
+import Skill from "./components/Skill"
 
 export default function Home() {
   return (
@@ -7,6 +9,8 @@ export default function Home() {
       <Navbar />
       <div className="container mx-auto px-12 py-4 mt-24">
         <Header />
+        <About />
+        <Skill />
       </div>
     </main>
   )

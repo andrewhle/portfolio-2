@@ -11,8 +11,16 @@ const navLinks = [
     path: "#about",
   },
   {
+    title: "Skills",
+    path: "#skills",
+  },
+  {
     title: "Projects",
     path: "#projects",
+  },
+  {
+    title: "Experience",
+    path: "#experience",
   },
   {
     title: "Contact",
@@ -22,7 +30,7 @@ const navLinks = [
 
 function Navbar() {
 
-  const [showMenu, setShowMenu] = useState(true);
+  const [showMenu, setShowMenu] = useState(false);
 
   return (
     <nav className="fixed mx-auto top-0 left-0 right-0 z-10 bg-[#121212] bg-opacity-95">
