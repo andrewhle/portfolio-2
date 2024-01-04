@@ -27,17 +27,16 @@ function Header() {
               repeat={Infinity}
               />
           </h1>
-          <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            I'm a software engineer based in Portland, Oregon. specializing in
-            building websites,
-            applications, and everything in between.
+          <p className="text-slate-300 text-base sm:text-lg mb-6 lg:text-xl">
+            I'm a software engineer based in Portland, Oregon. I specialize in
+            building websites, applications, and everything in between.
           </p>
           <div>
             <Link
               href="/"
               className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-orange-400 to-yellow-900 hover:bg-cyan-900 text-white mt-3"
             >
-              <span className="block bg-black hover:bg-slate-800 rounded-full px-6 py-3">
+              <span className="block bg-black hover:bg-orange-950 rounded-full px-6 py-3">
                 Download Resume
               </span>
             </Link>
