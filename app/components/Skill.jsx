@@ -18,7 +18,7 @@ const skillsData = [
 function Skill() {
   return (
     <section className="text-white">
-      <div className="md:grid md:grid-cols-3 gap-8 text-center md:text-left py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
+      <div className="md:grid md:grid-cols-3 gap-8 text-center md:text-left xl:gap-16 sm:py-16">
         <h1 className="text-white text-2xl md:text-4xl lg:text-5xl font-extrabold">
           My Skills
         </h1>
