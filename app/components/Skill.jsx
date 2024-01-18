@@ -2,13 +2,12 @@ import React from "react";
 import Image from "next/image";
 
 const skillsData = [
-  "HTML",
-  "CSS",
+  "React",
+  "Tailwind",
   "JavaScript",
   "C/C++",
   "Python",
   "Node.js",
-  "React",
   "Next.js",
   "Express",
   "MongoDB",
