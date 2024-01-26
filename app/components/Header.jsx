@@ -25,7 +25,7 @@ function Header() {
             />
           </h1>
           <p className="text-slate-300 text-base sm:text-lg mb-6 lg:text-xl">
-            I'm a software engineer student based in Portland, Oregon. I specialize in building web app, cloud service, and everything in between.
+            I'm a software engineer student based in Portland, Oregon. I specialize in building full-stack web app, cloud service, and everything in between.
           </p>
           <div className="flex items-center space-x-4">
             <Link
