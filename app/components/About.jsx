@@ -7,7 +7,7 @@ function About() {
       <div className="mt-8 md:mt-5 md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
         <Image src='/images/work-station.jpg' width={500} height={500} className="rounded-3xl"/>
         <div className="mt-4 text-left flex flex-col">
-          <h2 className="text-3xl md:text-4xl font-bold text-white mb-8 underline underline-offset-8">About Me</h2>
+          <h2 className="text-3xl text-center md:text-left md:text-4xl font-bold text-white mb-8">About Me</h2>
           <p className="text-base lg:text-lg">
           I am a motivated individual dedicated to the technology products I create. 
           Alongside my proficiency in engineering technological solutions, 
@@ -20,7 +20,6 @@ function About() {
           </p>
         </div>
       </div>
-
     </section>
   );
 }

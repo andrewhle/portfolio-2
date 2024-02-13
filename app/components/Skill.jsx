@@ -26,7 +26,7 @@ function Skill() {
   return (
     <section className="text-white">
       <div className="md:grid md:grid-cols-2 gap-8 items-center px-4 sm:py-16 md:py-4 xl:gap-16 xl:px-16">
-        <h1 className="text-white text-3xl md:text-4xl font-extrabold mb-8 underline underline-offset-8">
+        <h1 className="text-white text-center md:text-left text-3xl md:text-4xl font-extrabold mb-8">
           My Skills
         </h1>
         <div className="flex justify-center">
