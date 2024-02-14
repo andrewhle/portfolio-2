@@ -9,7 +9,8 @@ function About() {
         <div className="mt-4 text-left flex flex-col">
           <h2 className="text-3xl text-center md:text-left md:text-4xl font-bold text-white mb-8">About Me</h2>
           <p className="text-base lg:text-lg">
-          I am a motivated individual dedicated to the technology products I create. 
+          I am a senior-year student at Oregon State University.
+          My focuses are on Web Development and Cloud Infrastructure.
           Alongside my proficiency in engineering technological solutions, 
           I approach challenges with a product-oriented mindset. In my present role, 
           I contribute significantly by facilitating teams to visioning their 
