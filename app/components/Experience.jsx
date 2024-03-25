@@ -20,7 +20,7 @@ function Experience() {
             <div class="hidden md:flex items-center justify-between space-x-1 mb-2">
               <div class="font-bold text-slate-900">Daimler Truck North America</div>
               <time class="font-caveat font-medium text-orange-400">
-                06/2023 - 08/2024
+                06/2024 - 12/2024
               </time>
             </div>
             <p class="hidden md:block text-md text-slate-900 mb-2">Software Engineer Intern</p>
@@ -29,7 +29,7 @@ function Experience() {
               <div class="font-bold text-slate-900">Daimler Truck North America</div>
               <p class="text-md text-slate-900">Software Engineer Intern</p>
               <time class="font-caveat font-medium text-orange-400">
-                06/2023 - 08/2024
+              06/2024 - 12/2024
               </time>
             </div>
 
@@ -50,7 +50,7 @@ function Experience() {
             <div class="hidden md:flex items-center justify-between space-x-1 mb-2">
               <div class="font-bold text-slate-900">Cambia Health Solutions</div>
               <time class="font-caveat font-medium text-orange-400">
-                06/2023 - 08/2024
+                04/2023 - 12/2023
               </time>
             </div>
             <p class="hidden md:block text-md text-slate-900 mb-2">Software Engineer Intern</p>

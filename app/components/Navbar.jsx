@@ -41,12 +41,12 @@ function Navbar() {
         <div className="mobile-menu block md:hidden">
           {
             !showMenu ? (
-              <button onClick={() => setShowMenu(true)} className="flex items-center px-3 py-2 border rounded-md border-slate-200 text-slate-200 hover:text-white hover:border-white">
-                <Bars3Icon className="h-5 w-5"/>
+              <button onClick={() => setShowMenu(true)} className="flex items-center px-3 py-2 border-slate-200 text-slate-200 hover:text-white hover:border-white">
+                <Bars3Icon className="h-7 w-7"/>
               </button>
             ) : (
-              <button onClick={() => setShowMenu(false)} className="flex items-center px-3 py-2 border rounded-md border-slate-200 text-slate-200 hover:text-white hover:border-white">
-                <XMarkIcon className="h-5 w-5"/>
+              <button onClick={() => setShowMenu(false)} className="flex items-center px-3 py-2 border-slate-200 text-slate-200 hover:text-white hover:border-white">
+                <XMarkIcon className="h-7 w-7"/>
               </button>
               )
           }
