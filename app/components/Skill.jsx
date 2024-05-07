@@ -34,8 +34,8 @@ function Skill() {
           <h1 className="text-white text-3xl md:text-4xl font-extrabold mb-8">
             My Skills
           </h1>
-          <p className="md:px-5 lg:text-lg">
-            I offer a comprehensive overview of the technical proficiencies from programming languages, software development frameworks and design tools.
+          <p className="md:px-5 text-lg md:text-xl">
+            Tech stacks that I have experience with.
           </p>
           <div className="flex justify-center">
           <Image src='/images/Backend.png' width={270} height={270} className="rounded-2xl"/>

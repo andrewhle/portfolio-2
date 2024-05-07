@@ -33,7 +33,6 @@ function Experience() {
               </time>
             </div>
 
-            
             <div class="text-slate-500">
               Upcoming
             </div>
@@ -105,7 +104,7 @@ function Experience() {
           </div>
         </div>
 
-        <div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active">
+        {/* <div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active">
           <div class="flex items-center justify-center w-10 h-10 rounded-full overflow-hidden border border-white bg-slate-300 group-[.is-active]:bg-white text-slate-500 group-[.is-active]:text-emerald-50 shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2">
             <Image src="/images/tmo.png" height={50} width={50} />
           </div>
@@ -127,13 +126,8 @@ function Experience() {
                 09/2020 - 03/2023
               </time>
             </div>
-
-            {/* <div class="text-slate-500">
-              Pretium lectus quam id leo. Urna et pharetra aliquam vestibulum
-              morbi blandit cursus risus.
-            </div> */}
           </div>
-        </div>
+        </div> */}
 
       </div>
     </div>

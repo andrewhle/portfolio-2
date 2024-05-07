@@ -23,6 +23,10 @@ const navLinks = [
     path: "#experience",
   },
   {
+    title: "Blog",
+    path: "#blog",
+  },
+  {
     title: "Contact",
     path: "#contact",
   },
@@ -34,8 +38,8 @@ function Navbar() {
 
   return (
     <nav className="fixed mx-auto top-0 left-0 right-0 z-10 bg-[#121212] bg-opacity-95">
-      <div className="flex flex-wrap lg:py-4 items-center justify-between mx-auto px-8 py-3">
-        <Link href={"/"} className="text-3xl md:text-4xl text-white font-semibold">Andrew Le</Link>
+      <div className="flex flex-wrap lg:py-6 items-center justify-between mx-auto px-10 py-3">
+        <Link href={"/"} className="text-3xl md:text-4xl text-white font-semibold">Hung Le</Link>
         
         {/* Mobile Menu */}
         <div className="mobile-menu block md:hidden">

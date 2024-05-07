@@ -5,7 +5,7 @@ const projectData = [
   {
     id: 1,
     title: "Project 1",
-    description: "Project 1 description",
+    description: "Project 1 description is still in construction",
     image: "/images/projects/maintain.png",
     tag: ["All", "Web"],
     gitUrl: "/",
@@ -14,7 +14,7 @@ const projectData = [
   {
     id: 2,
     title: "Project 2",
-    description: "Project 2 description",
+    description: "Project 2 description is still in construction",
     image: "/images/projects/maintain.png",
     tag: ["All", "Web"],
     gitUrl: "/",
@@ -23,7 +23,7 @@ const projectData = [
   {
     id: 3,
     title: "Project 3",
-    description: "Project 3 description",
+    description: "Project 3 description is still in construction",
     image: "/images/projects/maintain.png",
     tag: ["All", "Web"],
     gitUrl: "/",

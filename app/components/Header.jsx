@@ -18,14 +18,14 @@ function Header() {
             </span>
             <br />
             <TypeAnimation
-              sequence={["Andrew", 1000, "a Web Developer", 1000]}
+              sequence={["Hung", 1000, "a Software Developer", 1000]}
               wrapper="span"
               speed={50}
               repeat={Infinity}
             />
           </h1>
-          <p className="text-slate-300 text-base sm:text-lg mb-6 lg:text-xl">
-            I'm a software engineer student based in Portland, Oregon. I specialize in building full-stack web app, cloud service, and everything in between.
+          <p className="text-slate-300 text-base sm:text-lg mb-6 lg:text-2xl">
+            Welcome to my portfolio. I share thoughts about tech and show case my projects
           </p>
           <div className="flex items-center space-x-4">
             <Link
@@ -33,7 +33,7 @@ function Header() {
               className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-orange-400 to-yellow-900 hover:bg-cyan-900 text-white mt-3"
             >
               <span className="block bg-black hover:bg-gray-900 rounded-full px-6 py-3">
-                Download CV
+                View resume
               </span>
             </Link>
 
@@ -63,7 +63,7 @@ function Header() {
         <div className="col-span-5 place-self-center mt-10">
           <div className="relative rounded-full bg-orange-500 w-[250px] h-[250px] lg:w-[350px] lg:h-[350px] overflow-hidden border-4">
             <Image
-              src="/images/profile.png"
+              src="/images/anime-pic.png"
               alt="hero image"
               className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
               width={500}

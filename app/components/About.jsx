@@ -9,15 +9,15 @@ function About() {
         <div className="mt-4 text-left flex flex-col">
           <h2 className="text-3xl text-center md:text-left md:text-4xl font-bold text-white mb-8">About Me</h2>
           <p className="text-base lg:text-lg">
-          I am a senior-year student at Oregon State University.
-          My focuses are on Web Development and Cloud Infrastructure.
-          Alongside my proficiency in engineering technological solutions, 
-          I approach challenges with a product-oriented mindset. In my present role, 
-          I contribute significantly by facilitating teams to visioning their 
-          software infrastructure and micro-services via a centralized software catalog. 
-          Furthermore, I support my teams in assessing our service's performance through the 
-          "white box" testing methodology. I believe the highest potential for technology is 
-          allow people to seek for fulfillment through its application.
+          I’m currently wrapping up my senior year at Oregon State University, where I’ve been diving deep into the worlds of software development.
+          I'm all about building tech solutions that not only work reliablely, but also make sense from a product perspective.
+          <br />
+          <br />
+          At the moment, I'm heavily involved in learning and building cloud computing systems that help companies scale their resources based on demand. 
+          During my recent internship, I had the chance to help internal development teams envision their services and infrastructure through monitoring tools and a developer portal.
+          <br />
+          <br />
+          During my free time, I enjoy reading about productivity improvement and travel
           </p>
         </div>
       </div>
