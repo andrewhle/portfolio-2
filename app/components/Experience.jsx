@@ -4,7 +4,7 @@ import Link from "next/link";
 
 function Experience() {
   return (
-    <div>
+    <div id="experience">
       <h2 className="text-center text-4xl font-bold text-white mt-10 mb-8 md:mb-12">
         My Experience
       </h2>

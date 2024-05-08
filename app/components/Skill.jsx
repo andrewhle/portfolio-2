@@ -28,7 +28,7 @@ const backEndSkills = [
 
 function Skill() {
   return (
-    <section className="text-white">
+    <section id="skills" className="text-white">
       <div className="md:grid md:grid-cols-2 gap-8 items-center md:px-12">
         <div className="self-center text-center py-6 md:pb-20">
           <h1 className="text-white text-3xl md:text-4xl font-extrabold mb-8">

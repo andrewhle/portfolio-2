@@ -17,7 +17,7 @@ function About() {
           During my recent internship, I had the chance to help internal development teams envision their services and infrastructure through monitoring tools and a developer portal.
           <br />
           <br />
-          During my free time, I enjoy reading about productivity improvement and travel
+          When I'm not coding, I enjoy reading about productivity improvement and travel
           </p>
         </div>
       </div>

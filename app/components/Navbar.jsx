@@ -16,7 +16,7 @@ const navLinks = [
   },
   {
     title: "Projects",
-    path: "#projects",
+    path: "/#projects",
   },
   {
     title: "Experience",
@@ -35,6 +35,15 @@ const navLinks = [
 function Navbar() {
 
   const [showMenu, setShowMenu] = useState(false);
+
+  const handleScroll = (id) => (e) => {
+    e.preventDefault(); // Prevent default anchor behavior
+    const element = document.getElementById(id);
+    if (element) {
+      // Scroll element into the middle of the screen
+      element.scrollIntoView({ block: 'center' });
+    }
+  };
 
   return (
     <nav className="fixed mx-auto top-0 left-0 right-0 z-10 bg-[#121212] bg-opacity-95">
@@ -61,7 +70,7 @@ function Navbar() {
           <ul className="flex p-4 md:p-0 md:flex-row md:space-x-8">
             {
               navLinks.map((link, index) => (
-                <li key={index}>
+                <li key={index} onClick={handleScroll(link.path.substring(1))}>
                   <NavLink path={link.path} title={link.title} />
                 </li>
               ))

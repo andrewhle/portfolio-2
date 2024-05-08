@@ -4,7 +4,7 @@ import Link from "next/link";
 function ProjectCard({ imgUrl, title, description, girUrl, previewUrl }) {
   return (
     <div>
-      <div className="flex flex-col p-5 bg-slate-800 gap-6 rounded-xl">
+      <div className="flex flex-col p-5 bg-gray-800 gap-6 rounded-xl">
         <div
           className="h-52 md:h-72 rounded-t-xl relative group"
           style={{ background: `url(${imgUrl})`, backgroundSize: "cover" }}
