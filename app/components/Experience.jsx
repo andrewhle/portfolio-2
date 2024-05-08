@@ -23,18 +23,18 @@ function Experience() {
                 06/2024 - 12/2024
               </time>
             </div>
-            <p class="hidden md:block text-md text-slate-900 mb-2">Software Engineer Intern</p>
+            <p class="hidden md:block text-md text-slate-900 mb-2">Cloud Platform Engineer Intern</p>
 
             <div class="md:hidden sm:block">
               <div class="font-bold text-slate-900">Daimler Truck North America</div>
-              <p class="text-md text-slate-900">Software Engineer Intern</p>
+              <p class="text-md text-slate-900">Cloud Platform Engineer Intern</p>
               <time class="font-caveat font-medium text-orange-400">
               06/2024 - 12/2024
               </time>
             </div>
 
-            <div class="text-slate-500">
-              Upcoming
+            <div class="text-slate-600">
+              Incoming
             </div>
           </div>
         </div>
@@ -63,10 +63,14 @@ function Experience() {
             </div>
             
 
-            <p class="text-slate-500 text-sm">
-                I was part of the Quality & Infrastructure Platform team, which focuses on creating internal tools through web services.
-                I worked along side with Architecture Team to led the development of our core product, Backstage, a platform that assists our organization in managing microservices and the ecosystem of artifacts. 
-                I used tech stack such as Docker, CircleCI, K8s, and AWS CloudFormation to ensure stable products realease. Lastly, I supported my team in creating a reliable system by conducting tests with Cucumber. 
+            <p class="text-slate-600 text-sm">
+            - Designed and implemented a full stack developer portal focused on categorize, track, and monitor micro-services and artifacts. This help improving the workflows and infrastructure visibility for 50+ developers teams.
+            <br/>
+            - Developed automated processes for Backstage by integrating GitHub APIs across microservices' YAML registration files. The result decouple the dependency of manual registration process for product owners.
+            <br/>
+            - Conducted behavior-driven unit tests for micro-services against AWS services using Cucumber, LocalStack, and Ruby, resulting in a 10% reduction in errors during deployment into the production environments.
+            <br/>
+            - Participated in Hackathon and deliver an API generator template for Backstage, reducing time and error for product owner when registering for their services 
             </p>
           </div>
         </div>
@@ -95,7 +99,7 @@ function Experience() {
             </div>
 
             
-            <p class="text-slate-500 text-sm">
+            <p class="text-slate-600 text-sm">
                 Being part of the academic community has been a truly enjoyable experience. 
                 In the Analysis of Algorithms class, I guided students through complex concepts like Recursion, Merge Sort, Dynamic Programming, Big-O Notation, and Graph Theory. 
                 For the Web Development class, I helped students build web apps using React, JavaScript, Express, and MongoDB. 
