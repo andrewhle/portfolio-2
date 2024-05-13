@@ -103,7 +103,7 @@ function Experience() {
                 Being part of the academic community has been a truly enjoyable experience. 
                 In the Analysis of Algorithms class, I guided students through complex concepts like Recursion, Merge Sort, Dynamic Programming, Big-O Notation, and Graph Theory. 
                 For the Web Development class, I helped students build their full-stack web apps using frameworks React, JavaScript, Express, and MongoDB. 
-                Beyond that, I support students on internships finding and personal portfolio projects.
+                Beyond that, I support students on internships finding and building their portfolio projects.
             </p>
           </div>
         </div>
