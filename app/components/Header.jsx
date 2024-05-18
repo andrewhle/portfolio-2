@@ -31,7 +31,8 @@ function Header() {
           </p>
           <div className="flex items-center space-x-4">
             <Link
-              href="/"
+              href="https://drive.google.com/file/d/1r9VnM2lK2y0FY3Ht26Fk6es5XiZV7deq/view?usp=sharing"
+              target="_blank"
               className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-orange-400 to-yellow-900 hover:bg-cyan-900 text-white mt-3"
             >
               <span className="block bg-black hover:bg-gray-900 rounded-full px-6 py-3">
