@@ -24,7 +24,7 @@ const navLinks = [
   },
   {
     title: "Blog",
-    path: "#blog",
+    path: "/blog",
   },
   {
     title: "Contact",
