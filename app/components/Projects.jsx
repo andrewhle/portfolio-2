@@ -4,20 +4,20 @@ import ProjectCard from "./ProjectCard";
 const projectData = [
   {
     id: 1,
-    title: "Project 1",
-    description: "Project 1 description is still in construction",
-    image: "/images/projects/maintain.png",
+    title: "Bloom Filter",
+    description: "Bloom Filter leveraging hash functions to cache data and minimize database queries",
+    image: "/images/projects/bloom-filter.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
+    gitUrl: "https://github.com/andrewhle/bloom-filter",
     previewUrl: "/"
   },
   {
     id: 2,
-    title: "Project 2",
-    description: "Project 2 description is still in construction",
-    image: "/images/projects/maintain.png",
+    title: "Rock-Paper-Scissors-Lizard-Spock",
+    description: "Rock-Paper-Scissors-Lizard-Spock Game Simulation",
+    image: "/images/projects/Rock_paper_scissors_lizard_spock.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
+    gitUrl: "https://github.com/andrewhle/rock-paper-scissors-lizard-spock",
     previewUrl: "/"
   },
   {
@@ -44,7 +44,7 @@ function Projects() {
             title={project.title}
             imgUrl={project.image}
             description={project.description}
-            girUrl={project.gitUrl}
+            gitUrl={project.gitUrl}
             previewUrl={project.previewUrl}
           />
         ))}
