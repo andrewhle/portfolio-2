@@ -19,14 +19,12 @@ function ProjectCard({ imgUrl, title, description, gitUrl, previewUrl }) {
           <div className="flex gap-5 py-3 items-center justify-between">
             <div className="flex items-center justify-between bg-slate-600 h-10 w-30 p-5 rounded-lg hover:bg-slate-500">
               <Link href="/">
-                <span className="md:hidden">Demo</span> {/* This will only show on screens smaller than 'md' */}
-                <span className="hidden md:inline">View Demo</span> {/* This will show on 'md' screens and larger */}
+                <span>Demo</span> {/* This will only show on screens smaller than 'md' */}
               </Link>
             </div>
             <div className="flex items-center justify-between bg-slate-600 h-10 w-30 p-5 rounded-lg hover:bg-slate-500">
               <Link href={`${gitUrl}`} target="_blank">
-                <span className="md:hidden">Source Code</span> {/* This will only show on screens smaller than 'md' */}
-                <span className="hidden md:inline">View Source Code</span> {/* This will show on 'md' screens and larger */}
+                <span>Source Code</span> {/* This will only show on screens smaller than 'md' */}
               </Link>
             </div>
           </div>
